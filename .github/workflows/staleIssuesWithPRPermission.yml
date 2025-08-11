@@ -17,9 +17,9 @@ jobs:
           stale-issue-label: 'stale'
           exempt-issue-labels: 'ref/IP, ref/NC'
           exempt-all-issue-milestones: true
-          days-before-issue-stale: 1304
+          days-before-issue-stale: 0
           days-before-issue-close: 0
-          operations-per-run: 15
+          operations-per-run: 50
           enable-statistics: true
           ignore-issue-updates: true
           ascending: true
