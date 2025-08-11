@@ -16,8 +16,8 @@
 
 name: 'stale with PR'
 
-permissions:
-  issues: write
+#permissions:
+#  issues: write
 
 on:
   workflow_dispatch:
