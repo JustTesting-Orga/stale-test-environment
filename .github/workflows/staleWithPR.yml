@@ -14,7 +14,7 @@
 # debug-only: action only simulates the labeling and closing process, useful for testing
 # Reopen: Automatically closed issues must be manually reopened if still relevant, and the 'stale' label removed to prevent reprocessing.
 
-name: 'stale'
+name: 'stale with PR'
 
 permissions:
   issues: write
@@ -38,7 +38,7 @@ jobs:
           exempt-all-issue-milestones: true
           days-before-stale: 0
           days-before-close: 0
-          operations-per-run: 150
+          operations-per-run: 50
           enable-statistics: true
           ignore-issue-updates: true
           ascending: true
